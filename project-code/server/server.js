@@ -4,10 +4,11 @@ app.use(express.json());
 const mysql = require("mysql");
 
 // Creates a connection with the database.
+// Note: Values are placeholders becuase school system is no longer avaliable.
 const con = mysql.createConnection({
-    host: "jm455.teaching.cs.st-andrews.ac.uk",
-    user: "jm455",
-    password: "bmGqiSU5CZs!V6",
+    host: "[INSERT HOST]", 
+    user: "[INSERT USER]",
+    password: "[INSERT PASSWORD]",
     database: "jm455_CS4099DB"
   });
   con.connect(function (err) {
