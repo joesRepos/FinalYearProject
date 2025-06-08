@@ -1,0 +1,73 @@
+body {
+    background-color: lightgray;
+}
+
+.login-page, .student-home-page, .staff-home-page, .student-home-page, .new-module-page, .student-history-page, .decision-history-page, .staff-decision-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 19px;
+    margin: 10px;
+}
+
+p {
+    font-size: 17px;
+    margin: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+select {
+    padding: 8px;
+    font-size: 16px;
+    margin: 5px;
+
+  }
+
+button {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 8px;
+    margin: 5px;
+}
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+th, td {
+    border: 1px solid lightgray;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    font-size: 15px;
+}
+
+td {
+    background-color: white;
+    font-size: 15px;
+}
